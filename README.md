@@ -2,17 +2,13 @@ scrcpy的使用方法
 
 1.将文件夹路径添加到系统环境变量的Path中
 
-2.无论有线还是无线链接方法：创建一个.bat文件，然后输入表示自动打开cmd然后键入scrcpy命令并执行
+2.无论有线还是无线链接方法：创建一个.bat文件，然后输入![输入图片说明](图片1.png)表示自动打开cmd然后键入scrcpy命令并执行
 
 3.指令：
 
 3.1禁用音频：scrcpy --no-audio
 
-3.2无线连接：先用usb连接，然后scrcpy –tcpip可以自动找到设备的IP地址和adb端口并连接到设备
-或者是
-在文件夹按shift+右键打开powershell或cmd，然后依次输入下列指令即可
-![输入图片说明](%E5%9B%BE%E7%89%872.jpg)
-其中TCPIP和端口不一定是5555，可以查看手机知道端口号
+3.2无线连接：先用usb连接，然后scrcpy –tcpip指令可以自动找到设备的IP地址和adb端口并连接到设备
 
 3.3只读：scrcpy --no-control或scrcpy -n
 
