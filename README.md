@@ -8,8 +8,11 @@ scrcpy的使用方法
 
 3.1禁用音频：scrcpy --no-audio
 
-3.2无线连接：先用usb连接，然后scrcpy –tcpip指令可以自动找到设备的IP地址和adb端口并连接到设备
-
+3.2无线连接：先用usb连接，之后无需有线连接，只需要scrcpy –tcpip指令可以自动找到设备的IP地址和adb端口并连接到设备；
+  3.2.1当然也可以指定设备的IP地址，例如scrcpy --tcpip=192.168.1.1 或 --tcpip=192.168.1.1:5555
+  3.2.2同时有线连接时，可以选择usb(-d)或tcpip(-e)：scrcpy -d/-e
+  3.2.3关闭tcpip无线连接：在文件夹内打开power shell，输入adb disconnect
+  
 3.3只读：scrcpy --no-control或scrcpy -n
 
 3.4复制粘贴：ctrl+c复制/+x剪切/+v复制。任何Android程序都可以读取该内容
@@ -20,13 +23,13 @@ scrcpy的使用方法
 
 3.7安装apk：直接拖入窗口就行
 
-3.8传输文件默认放在/download文件夹内，修改拖拽文件保存位置：scrcpy --push-target=/sdcard/Movies/
+3.8传输文件默认放在/download文件夹内，修改文件保存位置可以使用命令：scrcpy --push-target=/sdcard/Movies/
 
 3.9防止休眠：scrcpy -w，无线连接无效
 
 3.10连接后关闭屏幕：-S
 
-3.11打开虚拟键盘，方便打字：Android14不起作用
+3.11打开虚拟键盘，方便打字：Android14不起作用，存在问题
 
 --keyboard=sdk 
 
@@ -52,9 +55,8 @@ scrcpy --no-video --audio-codec=flac --record=file.flac
 
 scrcpy --no-video --audio-codec=raw --record=file.wav
 
-# .m4a/.mp4 and .mka/.mkv are also supported for opus, aac and flac
 
-3.13快捷键：默认是左Alt或左Super
+3.13快捷键：需要加上控制键，默认是左Alt或左Super
 
 切换全屏：f
 
@@ -107,5 +109,3 @@ scrcpy --window-x=0 --window-y=100 --window-width=400 --window-height=900
 
 scrcpy --window-borderless
 
-3.20选择usb(-d)或tcpip(-e)：scrcpy -d/-e
-3.21关闭无线tcpip连接：adb disconnect
