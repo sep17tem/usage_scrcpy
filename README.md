@@ -27,9 +27,9 @@ scrcpy的使用方法
 
 3.9防止休眠：scrcpy -w，无线连接无效
 
-3.10连接后关闭屏幕：-S
+3.10连接后关闭屏幕：-S 或--turn-screen-off , 目前Android14用不了
 
-3.11打开虚拟键盘，方便打字：Android14不起作用，存在问题
+3.11打开虚拟键盘，方便打字：Android14不起作用
 
 --keyboard=sdk 
 
@@ -62,17 +62,19 @@ scrcpy --no-video --audio-codec=raw --record=file.wav
 
 屏幕左/右转：←/→
 
-窗口调整为1:1：g
+窗口调整为1:1：g ，不要随意使用
 
 解锁屏幕：m
 
-调节音量;↑/↓
+调节音量：↑/↓
 
 关闭屏幕但保持镜像：o，Android14不起作用
 
-打开：shift+o
+打开：shift+o ， Android14无效
 
 修改快捷键：scrcpy --shortcut-mod=rctrl
+
+模拟电源键：p ， 按一下代表锁屏
 
 3.14调节分辨率：默认是手机分辨率
 
