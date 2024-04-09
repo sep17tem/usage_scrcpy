@@ -8,10 +8,7 @@ scrcpy的使用方法
 
 3.1禁用音频：scrcpy --no-audio
 
-3.2无线连接：先用usb连接，打开手机端的无线调试功能，之后在文件夹打开power shell，键入adb(或<.\adb>) connect <手机IP地址>:<端口号>使能无线连接，之后只需要scrcpy –tcpip指令可以自动找到设备的IP地址和adb端口并连接到设备；
-  3.2.1当然也可以指定设备的IP地址，例如scrcpy --tcpip=192.168.1.1 或IP地址加端口号 --tcpip=192.168.1.1:5555
-  3.2.2同时有线连接时，可以选择usb(-d)或tcpip(-e)：scrcpy -d/-e
-  3.2.3关闭tcpip无线连接：在文件夹内打开power shell，输入adb disconnect
+3.2无线连接：打开手机端的无线调试功能，先用usb连接，之后在文件夹打开power shell，键入adb(或<.\adb>) connect <手机IP地址>:<端口号>enable无线连接，最后只需-–tcpip完成无线连接；
   
 3.3只读：scrcpy --no-control或scrcpy -n
 
