@@ -8,7 +8,7 @@ scrcpy的使用方法
 
 3.1禁用音频：scrcpy --no-audio
 
-3.2无线连接：打开手机端的无线调试功能，先用usb连接，之后在文件夹打开power shell，键入adb(或<.\adb>) connect <手机IP地址>:<端口号>，最后只需-–tcpip完成无线连接；
+3.2无线连接：打开手机端的无线调试功能，先用usb连接，然后在.bat文件键入![输入图片说明](图片2.png)即可，主要是修改手机IP地址就行；
   
 3.3只读：scrcpy --no-control或scrcpy -n
 
