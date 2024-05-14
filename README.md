@@ -1,7 +1,5 @@
 scrcpy的使用方法
 
-0.一个基于scrcpy的在线网站:https://app.tangoapp.dev
-
 1.将文件夹路径添加到系统环境变量的Path中
 
 2.无论有线还是无线链接方法：创建一个.bat文件，然后输入![输入图片说明](图片1.png)表示自动打开cmd然后键入scrcpy命令并执行。快捷bat文件放在release中
