@@ -22,7 +22,7 @@ scrcpy的使用方法
 
 3.8传输文件默认放在/download文件夹内，修改文件保存位置可以使用命令：scrcpy --push-target=/sdcard/Movies/
 
-3.9防止休眠：scrcpy -w，无线连接无效
+3.9防止休眠：scrcpy -w 或 scrcpy --stay-awake，无线连接无效
 
 3.10连接后关闭屏幕：-S 或--turn-screen-off , 目前Android14用不了
 
@@ -53,7 +53,7 @@ scrcpy --no-video --audio-codec=flac --record=file.flac
 scrcpy --no-video --audio-codec=raw --record=file.wav
 
 
-3.13快捷键：需要加上控制键，默认是左Alt或左Super
+3.13快捷键：下面指令全部需要加上控制键，默认是左Alt或左Super ，修改快捷键--shortcut-mod=rctrl或lctrl+lalt ，可行的快捷键包括lctrl, rctrl, lalt, ralt, lsuper and rsuper
 
 切换全屏：f
 
@@ -110,5 +110,7 @@ scrcpy --window-borderless
 
 3.20改变拖拽文件保存位置：
 
-scrcpy --push-target=/我的手机/Movies/
+scrcpy --push-target=/sdcard/Movies/
+
+3.21关闭scrcpy的同时关闭手机屏幕： scrcpy --power-off-on-close
 
