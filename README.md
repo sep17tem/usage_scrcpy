@@ -108,3 +108,7 @@ scrcpy --window-x=0 --window-y=100 --window-width=400 --window-height=900
 
 scrcpy --window-borderless
 
+3.20改变拖拽文件保存位置：
+
+scrcpy --push-target=/我的手机/Movies/
+
