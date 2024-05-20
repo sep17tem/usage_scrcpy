@@ -114,3 +114,5 @@ scrcpy --push-target=/sdcard/Movies/
 
 3.21关闭scrcpy的同时关闭手机屏幕： scrcpy --power-off-on-close
 
+4. scrcpy --otg: 打开OTG模式，连接电脑的鼠标和键盘直接映射到手机上，此时不需要adb
+
