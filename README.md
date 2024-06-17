@@ -1,4 +1,4 @@
-scrcpy的使用方法
+scrcpy的使用方法(还可以看https://app.tangoapp.dev)
 
 1.将文件夹路径添加到系统环境变量的Path中,在win11中不添加也可以。有时安装了新系统会无法'.\adb devices'，这时候需要更新一下电脑驱动
 
