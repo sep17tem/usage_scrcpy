@@ -6,7 +6,7 @@ scrcpy的使用方法（源代码见https://github.com/Genymobile/scrcpy ）
 
 2.1这一步在文件夹内的bat文件scrcpy-console已经实现，可以基于这个文件进行修改
 
-2.2有时候scrcpy不起作用，此时除了在开发者选项中打开USB调试功能，还需要找到“选择USB配置”并修改为“RNDIS(USB以太网)”或其它选项才行，具体是哪一个可用慢慢试
+2.2有时候scrcpy不起作用，此时除了在开发者选项中打开USB调试功能，还需要找到“选择USB配置”并修改为“RNDIS(USB以太网)”或“音频来源”均可，其他不行
 
 3.指令：
 
