@@ -1,4 +1,4 @@
-scrcpy的使用方法（源代码见https://github.com/Genymobile/scrcpy  ）
+scrcpy的使用方法（源代码见https://github.com/Genymobile/scrcpy ）
 
 1.将文件夹路径添加到系统环境变量的Path中,在win11中不添加也可以。
 
