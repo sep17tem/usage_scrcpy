@@ -94,19 +94,10 @@ scrcpy --max-fps=15
 
 scrcpy --video-codec=h265或av1
 
-3.18指定镜像窗口出现的位置和大小:
+3.18指定镜像窗口出现的位置和大小:以主显示器的左上角为坐标原点设置镜像窗口的位置，右侧为正X轴，下侧为正Y轴
 
-scrcpy --window-x=0 --window-y=100 --window-width=400 --window-height=900
+例如：scrcpy --window-x=0 --window-y=100 --window-width=400 --window-height=900 一般来说比较稳定
 
-这个位置和尺寸比较好
-
---window-x=-1050 --window-y=700 --window-width=400 --window-height=900
-
-这个位置出现在左侧竖屏的左下角
-
---window-x=-1050 --window-y=0 --window-width=400 --window-height=900
-
-这个则是左上角
 
 3.19让镜像窗口永远在顶部：
 
