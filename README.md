@@ -6,7 +6,7 @@ scrcpy的使用方法
 scrcpy --video-codec=h265 --max-size=1920 --max-fps=60 --no-audio --keyboard=uhid --window-x=0 --window-y=100 --window-width=400 --window-height=900
 ![输入图片说明](图片1.png)，表示自动打开cmd然后键入scrcpy命令并执行，这串快捷指令代表‘关闭音频转换’、‘将镜像放在主显示屏最左侧’等
 
-2.在Android的开发人员选项中打开‘USB调试’功能，有时候还需要额外关闭‘通过USB验证应用’这个开关，否则无法运行。![输入图片说明](图片2.png)
+2.在Android的开发人员选项中打开‘USB调试’功能，链接新的电脑时还需要将‘选择USB配置’切换为‘音频来源’以激活安全码验证，为了后续正常运行，还需要额外关闭‘通过USB验证应用’这个开关。
 
 3.指令：
 
