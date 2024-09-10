@@ -1,12 +1,12 @@
-scrcpy的使用方法（源代码见https://github.com/Genymobile/scrcpy ）
+scrcpy的使用方法
 
-1.将文件夹路径添加到系统环境变量的Path中,在win11中不添加也可以。
+（源代码见https://github.com/Genymobile/scrcpy ）
 
-2.无论有线还是无线链接方法：创建一个bat文件并键入![输入图片说明](图片1.png)，表示自动打开cmd然后键入scrcpy命令并执行。
+1.无论有线还是无线链接方法：将目录内名为‘scrcpy-console’的bat文件复制一下，在新的bat文件中键入（快捷指令）
+scrcpy --video-codec=h265 --max-size=1920 --max-fps=60 --no-audio --keyboard=uhid --window-x=0 --window-y=100 --window-width=400 --window-height=900
+![输入图片说明](图片1.png)，表示自动打开cmd然后键入scrcpy命令并执行，这串快捷指令代表‘关闭音频转换’、‘将镜像放在主显示屏最左侧’等
 
-2.1这一步在文件夹内的bat文件scrcpy-console已经实现，可以基于这个文件进行修改
-
-2.2有时候scrcpy不起作用，此时除了在开发者选项中打开USB调试功能，还需要找到“选择USB配置”并修改为“RNDIS(USB以太网)”或“音频来源”均可，其他不行
+2.在Android的开发人员选项中打开‘USB调试’功能，有时候还需要额外关闭‘通过USB验证应用’这个开关，否则无法运行。![输入图片说明](图片2.png)
 
 3.指令：
 
