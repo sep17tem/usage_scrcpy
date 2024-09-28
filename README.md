@@ -28,15 +28,15 @@ scrcpy --video-codec=h265 --max-size=1920 --max-fps=60 --no-audio --keyboard=uhi
 
 3.9防止休眠：scrcpy -w 或 scrcpy --stay-awake，无线连接无效
 
-3.10连接后关闭屏幕：-S 或--turn-screen-off , 目前Android14用不了
+3.10连接后关闭屏幕：-S 或--turn-screen-off , 目前Android14用不了。可以直接用快捷键【alt+o】，重新打开则是【alt+shift+o】
 
 3.11打开虚拟键盘，方便打字：Android14不起作用。有一种可能可行的解决方法：每次连接时复制粘贴一段文本到手机上，可以尝试打开虚拟键盘。
 
 --keyboard=sdk 
 
---keyboard=uhid 
+--keyboard=uhid ，可以在ADB和OTG模式中使用
 
---keyboard=aoa  
+--keyboard=aoa ，在Windows中只能在OTG模式中使用
 
 3.12镜像时录制音频和视频：
 
