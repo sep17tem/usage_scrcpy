@@ -1,6 +1,7 @@
 scrcpy的使用方法
 
 （源代码见https://github.com/Genymobile/scrcpy ）
+
 (最简单的是打开：app.tangoapp.dev)
 
 1.无论有线还是无线链接方法：将目录内名为‘scrcpy-console’的bat文件复制一下，在新的bat文件中键入（快捷指令）
