@@ -2,7 +2,7 @@ scrcpy的使用方法
 
 （源代码见https://github.com/Genymobile/scrcpy ）
 
-(最简单的是打开：app.tangoapp.dev)
+(好用的软件是：Escrcpy,直接使用二维码配对进行无线连接即可)
 
 1.无论有线还是无线链接方法：将目录内名为‘scrcpy-console’的bat文件复制一下，在新的bat文件中键入（快捷指令）
 scrcpy --video-codec=h265 --max-size=1920 --max-fps=60 --no-audio --keyboard=uhid --window-x=0 --window-y=100 --window-width=400 --window-height=900
